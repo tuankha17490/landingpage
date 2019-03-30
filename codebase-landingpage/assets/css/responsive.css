@@ -1,0 +1,812 @@
+@media (min-width: 1200px) {
+
+/*----------- Navigation Bar -----------*/
+
+.external-menu {
+    display: none;
+}
+
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+/*----------- Navigation Bar -----------*/
+
+.menu ul {
+    width: auto;
+    margin: auto;
+}
+.external-menu {
+    display: none;
+}
+
+/*----------- INTRODUCE-----------*/
+
+.introduce__title {
+    line-height: 85px;
+    padding: 0 95px 0;
+}
+.introduce__title p {
+    font-size: 42px;
+}   
+
+/*----------- SERVICES -----------*/
+
+.services__content__text {
+    width: 300px;
+    padding: 0 25px 0;
+}
+
+/*----------- WORKS -----------*/
+
+.works__images__element {
+    width: 280px;
+}
+.works__images__element img {
+    width: 280px;
+    
+}
+.works__statistic__item {
+    width: 220px;
+}
+.works__statistic__item h3 {
+    font-size: 45px;
+}
+.works__statistic__item p {
+    font-size: 18px;
+}
+
+/*----------- REASON -----------*/
+
+.reason__description p {
+    padding: 0 238px;
+}
+
+/*----------- TEAM -----------*/
+
+.team__component__item {
+    width: 220px;
+}
+.team__component__item .picture {
+    width: 220px;
+    height: 460px;
+}
+.team__component__item__content p {
+    padding: 15px 15px 0;
+}
+
+/*----------- LEVEL -----------*/
+
+.progress {
+    width: 450.25px;
+}
+
+/*----------- PRICE -----------*/
+
+.price__statistic__item {
+    width: 300px;
+}
+
+/*----------- CONTACT -----------*/
+
+.contact__statistic__item {
+    width: 300px;
+}
+
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+/*----------- Navigation Bar -----------*/
+
+.external-menu {
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    z-index: 11;
+    background: #111111;
+}
+.menu {
+    display: none;
+}
+.external-menu__title {
+    margin-right: 330px;
+    padding-top: 5px;
+}
+.external-menu__picture {
+    margin-left: 100px;
+} 
+.external-menu__picture img {
+    padding-top: 10px;
+}
+.external-menu ul li {
+    list-style: none;
+    padding-left: 15px;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 1px;
+    width: 100%;
+    color: #7F7F7F;
+    cursor: pointer;
+    padding-bottom: 13px;
+    opacity: .5;
+}
+.accordion {
+    width: 100%;
+}
+.accordion button span {
+    width: 30px;
+    height: 10px;
+    border-bottom: 1px solid #7F7F7F;
+    display: block;
+}
+.card-body {
+    padding: 0!important;
+}
+.card-body ul {
+    padding-left: 0;
+}
+.card {
+    background: none;
+    border: none!important;
+}
+.card-header {
+    padding-bottom: 10px;
+    padding-top: 5px;
+    background: none!important;
+    border-bottom: 0;
+}
+.card-header h5 {
+    text-align: right;
+    padding-left: 50px;
+}
+#collapseOne {
+    background: rgb(37, 37, 43,0.7);
+}
+.card-body ul li:hover {
+    background: rgba(30,30,38,0.7);
+}
+
+
+/*----------- INTRODUCE-----------*/
+
+.introduce__title {
+    line-height: 85px;
+}
+.introduce__title p {
+    font-size: 35px;
+}
+
+/*----------- INFORMATION -----------*/
+
+.information__content {
+    padding: 100px 15px 110px 40px;
+}
+.information__content p {
+    line-height: 23px;
+}
+
+/*----------- SERVICES -----------*/
+
+.services__content__text {
+    width: 345px;
+}
+
+/*----------- WORKS -----------*/
+
+.works__images__element {
+    width: 345px;
+}
+.works__images__element img {
+    width: 345px;
+}
+.works__statistic__item {
+    width: 345px;
+}
+.works__statistic__item h3 {
+    font-size: 47px;
+}
+.works__statistic__item p {
+    font-size: 21px;
+}
+.border-del {
+    border-right: none!important;
+}
+
+/*----------- REASON -----------*/
+
+.reason__description p {
+    padding: 0 127px;
+}
+
+/*----------- TEAM -----------*/
+
+.team__component__item {
+    width: 345px;
+}
+.team__component__item .picture {
+    width: 310px;
+    height: 460px;
+}
+
+.progress {
+    width: 312px;
+}
+
+/*----------- VIDEO -----------*/
+
+.video__active {
+    margin-top: 121px;
+}
+
+/*----------- PRICE -----------*/
+
+.price__statistic__item {
+    width: 220px;
+}
+.price__statistic__item h3 {
+    font-size: 23px;
+}
+.price__statistic__item p {
+    font-size: 20px;
+}
+.price__statistic__item__data {
+    line-height: 32px;
+    font-size: 15px;
+    margin-top: 25px;
+}
+
+/*----------- REVIEW -----------*/
+
+.review__slide__component__description {
+    font-size: 15px;
+    padding: 0 60px;
+}
+
+/*----------- LOGO -----------*/ 
+
+.logo__slide__picture {
+    width: 152px;
+    margin-right: 20px;
+}
+
+/*----------- CONTACT -----------*/
+
+.contact__location{
+    margin-top: 25px;
+}
+.contact__location iframe {
+    width: 660px;
+}
+.contact__statistic__item {
+    width: 330px;
+    margin-bottom: 30px;
+}
+.contact__statistic {
+    margin-bottom: 0px;
+}
+
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+
+/*----------- Navigation Bar -----------*/
+
+.external-menu {
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    z-index: 11;
+    background: #111111;
+}
+.menu {
+    display: none;
+}
+.external-menu__title {
+    margin-right: 160px;
+    padding-top: 5px;
+}
+.external-menu__picture {
+    margin-left: 100px;
+} 
+.external-menu__picture img {
+    padding-top: 10px;
+}
+.external-menu ul li {
+    list-style: none;
+    padding-left: 20px;
+    text-transform: uppercase;
+    font-size: 17px;
+    letter-spacing: 1px;
+    width: 100%;
+    color: #7F7F7F;
+    cursor: pointer;
+    padding-bottom: 13px;
+    opacity: .5;
+}
+.accordion {
+    width: 100%;
+}
+.accordion button span {
+    width: 30px;
+    height: 10px;
+    border-bottom: 1px solid #7F7F7F;
+    display: block;
+}
+.card-body {
+    padding: 0!important;
+}
+.card-body ul {
+    padding-left: 0;
+}
+.card {
+    background: none;
+    border: none!important;
+}
+.card-header {
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+.card-header h5 {
+    text-align: right;
+    padding-left: 50px;
+}
+#collapseOne {
+    background: rgb(37, 37, 43,0.7);
+}
+.card-body ul li:hover {
+    background: rgba(30,30,38,0.7);
+}
+
+
+/*----------- INTRODUCE-----------*/
+
+
+.introduce__title {
+    line-height: 60px;
+}
+.introduce__title p {
+    font-size: 25px;
+}
+.introduce::after {
+    background-position: center;
+    height: 645px;
+}
+
+
+/*----------- INFORMATION -----------*/
+
+
+.information__content {
+    text-align: center;
+}
+.information__content p {
+    line-height: 23px;
+    font-size: 15px;
+}
+#information .row {
+    display: block
+}
+.information__picture {
+    width: 540px;
+}
+
+/*----------- SERVICES -----------*/
+
+.services__content__text {
+    width: 255px;
+}
+
+/*----------- WORKS -----------*/
+
+.works__images__element {
+    width: 440px;
+}
+.works__images__element img {
+    width: 440px;
+}
+.works__statistic__item {
+    width: 255px;
+}
+.works__statistic__item h3 {
+    font-size: 43px;
+}
+.works__statistic__item p {
+    font-size: 16px;
+}
+.border-del {
+    border-right: none!important;
+}
+
+/*----------- REASON -----------*/
+
+.reason__description p {
+    padding: 0 40px;
+}
+
+/*----------- TEAM -----------*/
+
+.team__component__item {
+    width: 255px;
+}
+.team__component__item .picture {
+    width: 240px;
+    height: 460px;
+}
+
+/*----------- LEVEL -----------*/
+
+.progress {
+    width: 450.25px;
+}
+
+/*----------- VIDEO -----------*/
+
+.video__active {
+    margin-top: 46px;
+}
+
+/*----------- PRICE -----------*/
+
+.price__statistic__item {
+    width: 240px;
+}
+.price__statistic__item h3 {
+    font-size: 26px;
+    letter-spacing: 1px;
+}
+.price__statistic__item p {
+    font-size: 23px;
+}
+.price__statistic__item__data {
+    line-height: 32px;
+    font-size: 17px;
+    margin-top: 25px;
+}
+.border-destroy {
+    border-right: 0!important;
+}
+
+/*----------- REVIEW -----------*/
+
+.review__slide__component__description {
+    font-size: 15px;
+    padding: 0 60px;
+}
+.slick-prev {
+    left: 5%!important;
+}
+.slick-next {
+    left: 90%!important;
+}
+
+/*----------- CONTACT -----------*/
+
+.contact__location{
+    margin-top: 25px;
+}
+.contact__location iframe {
+    width: -webkit-fill-available;
+}
+.contact__statistic__item {
+    border-bottom: 1px solid #FFEB3B;
+    margin-bottom: 30px;
+    width: 400px;
+}
+.contact__statistic__item p {
+    font-size: 17px;
+}
+
+/*----------- FOOTER -----------*/
+
+footer .col {
+    display: inline-block;
+    text-align: center;
+    font-size: 14px;
+}
+
+}
+
+
+@media (max-width: 575.98px) { 
+
+/*----------- Navigation Bar -----------*/
+
+.external-menu {
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    z-index: 11;
+    background: #111111;
+}
+.menu {
+    display: none;
+}
+.external-menu__title {
+    margin-right: 60px;
+    padding-top: 5px;
+}
+.external-menu__picture {
+    margin-left: 100px;
+} 
+.external-menu__picture img {
+    padding-top: 10px;
+}
+.external-menu ul li {
+    list-style: none;
+    padding-left: 20px;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 1px;
+    width: 100%;
+    color: #7F7F7F;
+    cursor: pointer;
+    padding-bottom: 13px;
+    opacity: .5;
+}
+.accordion {
+    width: 100%;
+}
+.accordion button span {
+    width: 30px;
+    height: 10px;
+    border-bottom: 1px solid #7F7F7F;
+    display: block;
+}
+.card-body {
+    padding: 0!important;
+}
+.card-body ul {
+    padding-left: 0;
+}
+.card {
+    background: none;
+    border: none!important;
+}
+.card-header {
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+.card-header h5 {
+    text-align: right;
+    padding-left: 50px;
+}
+#collapseOne {
+    background: rgb(37, 37, 43,0.7);
+}
+.card-body ul li:hover {
+    background: rgba(30,30,38,0.7);
+}
+
+
+/*----------- INTRODUCE-----------*/
+
+.introduce__title {
+    line-height: 60px;
+    padding-left: 45px;
+}
+.introduce__title p {
+    font-size: 25px;
+    padding: 0 35px 0;
+}
+.introduce::after {
+    background-position: center;
+    height: 645px;
+}
+
+/*----------- INFORMATION -----------*/
+
+.information .row {
+    margin-top:0!important; 
+}
+.information__content {
+    text-align: center;
+}
+.information__content p {
+    line-height: 23px;
+    font-size: 15px;
+}
+#information .row {
+    display: block
+}
+.information__picture {
+    width: 530px;
+}
+.information__picture img {
+    object-fit: contain;
+}
+
+/*----------- WORKS -----------*/
+
+.works__images__element {
+    width: 400px;
+}
+.works__images__element img {
+    width: 400px;
+}
+.works__statistic__item {
+    width: 320px;
+}
+.works__statistic__item h3 {
+    font-size: 45px;
+}
+.works__statistic__item p {
+    font-size: 20px;
+}
+#border {
+    border-bottom: 1px solid #FFEB3B;
+    border-right: none;
+}
+
+/*----------- REASON -----------*/
+
+.reason {
+    height: 730px;
+}
+.reason__description p {
+    padding: 0 0px;
+}
+.reason .container {
+    padding-bottom: 16px;   
+    padding-top: 110px;
+}
+.reason::after {
+    height: 730px;
+}
+
+/*----------- TEAM -----------*/
+
+.team__component__item {
+    width: 345px;
+}
+.team__component__item .picture {
+    width: 345px;
+    height: 520px;
+}
+
+/*----------- LEVEL -----------*/
+
+.progress {
+    width: 410px;
+}
+
+/*----------- VIDEO -----------*/
+
+.video__active {
+    margin-top: 46px;
+}
+.video::after {
+    height: 644px;
+}
+.video__title h2 {
+    line-height: 56px;
+    font-size: 26px;
+}
+
+/*----------- REVIEW -----------*/
+
+.review__slide__component__description {
+    font-size: 15px;
+    padding: 0 0px;
+}
+.slick-prev {
+    left: 5%!important;
+}
+.slick-next {
+    left: 90%!important;
+}
+
+/*----------- CONTACT -----------*/
+
+.contact__location{
+    margin-top: 25px;
+}
+.contact__location iframe {
+    width: -webkit-fill-available;
+}
+.contact__statistic__item {
+    border-bottom: 1px solid #FFEB3B;
+    margin-bottom: 30px;
+    width: 400px;
+}
+.contact__statistic__item p {
+    font-size: 17px;
+}
+
+/*----------- FOOTER -----------*/
+
+footer .col {
+    display: inline-block;
+    text-align: center;
+    font-size: 13px;
+}
+
+
+}
+
+@media (max-width: 490px) {
+
+/*----------- Navigation Bar -----------*/
+
+.external-menu {
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    z-index: 11;
+    background: #111111;
+}
+.menu {
+    display: none;
+}
+.external-menu__title {
+    margin-right: 0px;
+    padding-top: 5px;
+}
+.external-menu__picture {
+    margin-left: 100px;
+} 
+.external-menu__picture img {
+    padding-top: 10px;
+}
+.external-menu ul li {
+    list-style: none;
+    padding-left: 20px;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 1px;
+    width: 100%;
+    color: #7F7F7F;
+    cursor: pointer;
+    padding-bottom: 13px;
+    opacity: .5;
+}
+.accordion {
+    width: 100%;
+}
+.accordion button span {
+    width: 30px;
+    height: 10px;
+    border-bottom: 1px solid #7F7F7F;
+    display: block;
+}
+.card-body {
+    padding: 0!important;
+}
+.card-body ul {
+    padding-left: 0;
+}
+.card {
+    background: none;
+    border: none!important;
+}
+.card-header {
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+.card-header h5 {
+    text-align: right;
+    padding-left: 50px;
+}
+#collapseOne {
+    background: rgb(37, 37, 43,0.7);
+}
+.card-body ul li:hover {
+    background: rgba(30,30,38,0.7);
+}
+
+/*----------- LEVEL -----------*/
+
+.progress {
+    width: 350px;
+}
+
+
+}
+
